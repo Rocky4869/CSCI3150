@@ -1,0 +1,8 @@
+1. Compile: for C program x.c, use the following:
+   gcc x.c -o x -pthread -Wall
+
+e.g. given 1-pthread-create.c,
+   gcc 1-pthread-create.c -o 1-pthread-create -pthread -Wall
+
+2. Run:  ./x 
+  
